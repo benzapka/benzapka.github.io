@@ -16,3 +16,6 @@ XXX
 
 **5. Second LLM-supported Evolutionary Algorithm**
 XXX
+
+**Some additional remarks**
+XXX
