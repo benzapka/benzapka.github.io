@@ -1,4 +1,4 @@
-This GitHub repository contains the full code for the dissertation "XXX" as one consolidated Jupyter Notebook file.
+This GitHub repository contains the full code for the dissertation "Combing Convolutional Neural Network with Large Language Models and Evolutionary Algorithms to Optimise Deepfake Image Detection on Social Media" as one consolidated Jupyter Notebook file.
 
 The code pipeline is divided in five parts that are explained in the following:
 
@@ -19,4 +19,5 @@ XXX
 
 **Some additional remarks**
 XXX
+
 
