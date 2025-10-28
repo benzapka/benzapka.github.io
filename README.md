@@ -19,9 +19,10 @@ This code pipeline runs through an LLM-supported evolutionary algorithm (EA) to 
 Here, the best evolved basic CNN from the fourth step is taken and fused with a Vision Language Model (VLM). Prompt Engineering is conducted to get the VLM to detect deepfakes as good as possible. Then, the second LLM-supported EA conducts a search on the best way to fuse the CNN that was derived in the first LLM-supported EA with a VLM model to improve the overall accuracy on both datasets as much as possible.
 
 **Some additional remarks**  
-To get this code running, the user must have a Google Cloud Platform account. Then, the Google CLoud Console must be opened. It must be navigated to "Vertex AI" and then to "Notebooks" and "Workbench". There, a Workbench Instance must be created. It is necessary to choose an instance that has GPU access. Once it is set up, JupyterLab can be opened through the instance. There, the Jupyter Notebook file can be uploaded and opened.  
-Within the Jupyter Notebook file, the user must input some information into the code. The Google CLoud Storage bucket and OpenAI API key used for the dissertation were exchanged with "???" in the code. There, the user must input their information.  
+To get this code running, the user must have a Google Cloud Platform account. Then, the Google Cloud Console must be opened. It must be navigated to "Vertex AI" and then to "Notebooks" and "Workbench". There, a Workbench Instance must be created. It is necessary to choose an instance that has GPU access. Once it is set up, JupyterLab can be opened through the instance. There, the Jupyter Notebook file can be uploaded and opened.  
+Within the Jupyter Notebook file, the user must input some information into the code. The Google Cloud Storage bucket and OpenAI API key used for the dissertation were exchanged with "???" in the code. There, the user must input their information.  
 Following these steps, the user is able to run the code related to the dissertation and replicate its findings.
+
 
 
 
