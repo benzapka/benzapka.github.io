@@ -22,6 +22,8 @@ Here, the best evolved basic CNN from the fourth step is taken and fused with a 
 To get this code running, the user must have a Google Cloud Platform account. Then, the Google Cloud Console must be opened. It must be navigated to "Vertex AI" and then to "Notebooks" and "Workbench". There, a Workbench Instance must be created. It is necessary to choose an instance that has GPU access. Once it is set up, JupyterLab can be opened through the instance. There, the Jupyter Notebook file can be uploaded and opened.  
 Within the Jupyter Notebook file, the user must input some information into the code. The Google Cloud Storage bucket and OpenAI API key used for the dissertation were exchanged with "???" in the code. There, the user must input their information.  
 Following these steps, the user is able to run the code related to the dissertation and replicate its findings.
+In some of the cells' outputs, errors are shown. None of these are important as they are only related to unimportant parts of the code like, e.g., Google Cloud Storage uploads of results. All important parts of the code run through successfully.
+
 
 
 
